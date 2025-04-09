@@ -1,6 +1,6 @@
 # Surveillance Anomaly Detection by Autoencoder
 
-![Surveillance Anomaly Detection](loss_graph.jpeg "Loss Graph")
+![Surveillance Anomaly Detection](anomany.png "anomaly sample")
 
 ## Project Overview
 
