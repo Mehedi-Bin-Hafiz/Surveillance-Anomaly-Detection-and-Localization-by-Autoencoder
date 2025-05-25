@@ -5,6 +5,7 @@ __pycache__/
 
 
 training.npy
+saved_model.h5
 
 
 # C extensions
