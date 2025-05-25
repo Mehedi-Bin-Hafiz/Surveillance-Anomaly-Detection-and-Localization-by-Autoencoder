@@ -21,7 +21,7 @@ This project leverages a **Long Short-Term Memory (LSTM) Autoencoder** to detect
 ## Model Architecture
 This is a Convolutional Autoencoder that compresses 232×232 input images through an encoder (Conv2D + BatchNorm layers) down to a 29×29×256 bottleneck representation, then reconstructs the original image size through a symmetric decoder using transposed convolutions. The model learns to encode standard patterns into a compact latent space and decode them back, creating a reconstruction that should closely match the input for normal data.
 
-![Model architecture](results/model architecture.png "Architecture of Autoencoder")
+![Model architecture](results/model_architecture.png "Architecture of Autoencoder")
 
 
 
