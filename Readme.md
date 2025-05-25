@@ -1,6 +1,6 @@
-# Surveillance Anomaly Detection by Autoencoder
+# Anomaly Detection and Localization
 
-![Surveillance Anomaly Detection](anomany.png "anomaly sample")
+![Surveillance Anomaly Localization](results/output.gif "anomaly sample")
 
 ## Project Overview
 

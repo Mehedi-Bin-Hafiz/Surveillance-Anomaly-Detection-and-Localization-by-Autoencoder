@@ -8,6 +8,7 @@ training.npy
 model.h5
 output_frames
 model_frame_by_frame.h5
+model_e50_b4.h5
 
 
 # C extensions
