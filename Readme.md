@@ -18,18 +18,12 @@ This project leverages a **Long Short-Term Memory (LSTM) Autoencoder** to detect
 
 ---
 
-## File Descriptions
+## Model Architecture
+This is a Convolutional Autoencoder that compresses 232×232 input images through an encoder (Conv2D + BatchNorm layers) down to a 29×29×256 bottleneck representation, then reconstructs the original image size through a symmetric decoder using transposed convolutions. The model learns to encode standard patterns into a compact latent space and decode them back, creating a reconstruction that should closely match the input for normal data.
 
-| File/Folder              | Description                                                    |
-|--------------------------|----------------------------------------------------------------|
-| `data_preprocessing.ipynb` | Data preprocessing pipeline: resizing, normalization, and sequence generation. |
-| `model_train.ipynb`      | Builds, trains, and saves the LSTM Autoencoder model.         |
-| `model_evaluation.ipynb` | Evaluates model performance and identifies anomalies.         |
-| `loss_graph.jpeg`        | Training and validation loss graph.                          |
-| `requirements.txt`       | Python dependencies list.                                    |
-| `saved_model.h5`         | Pretrained model file.                                       |
+![Model architecture](results/model architecture.png "Architecture of Autoencoder")
 
----
+
 
 ## Installation
 
