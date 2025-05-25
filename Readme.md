@@ -50,3 +50,12 @@ cd Surveillance-Anomaly-Detection-by-Autoencoder
 pip install -r requirements.txt
 
 ```
+
+## Dataset is taken from
+
+```bash
+Anomaly Detection in Crowded Scenes.
+V. Mahadevan, W. Li, V. Bhalodia and N. Vasconcelos.
+In Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 
+San Francisco, CA, 2010
+```
