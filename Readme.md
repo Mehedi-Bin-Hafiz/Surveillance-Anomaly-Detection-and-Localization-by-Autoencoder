@@ -11,6 +11,7 @@ This project leverages a **Long Short-Term Memory (LSTM) Autoencoder** to detect
 ## Features
 
 - **LSTM Autoencoder**: Harnesses temporal patterns for anomaly detection.
+- **Localization: This project is able to localize the anomaly area of video.  
 - **Preprocessing Pipeline**: Streamlines data normalization and sequence preparation.
 - **Visualization**: Includes loss graphs for performance tracking.
 - **Customizable Threshold**: Tweak anomaly sensitivity via reconstruction error thresholds.
@@ -29,12 +30,12 @@ This is a Convolutional Autoencoder that compresses 232×232 input images throug
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/Surveillance-Anomaly-Detection-by-Autoencoder.git
+   git clone https://github.com/Mehedi-Bin-Hafiz/Surveillance-Anomaly-Detection-and-Localization-by-Autoencoder.git
 
 2. Navigate to the project directory:
 
 ```bash
-cd Surveillance-Anomaly-Detection-by-Autoencoder
+cd Surveillance-Anomaly-Detection-and-Localization-by-Autoencoder
 
 ```
 
