@@ -30,9 +30,11 @@ This is a Convolutional Autoencoder that compresses 232×232 input images throug
 ## Loss graph
 The graph displays the real-time reconstruction loss (Mean Squared Error) over the frames of a video. It shows a generally low loss initially, with a significant spike around frame 150-170, indicating a period of higher reconstruction error, for the anomaly
 
-<div style="text-align: center;">
-  ![Loss graph](results/loss_line.png "Loss graph for anomaly")
-</div>
+<p align="center">
+  <img src="results/loss_line.png" alt="Description of the GIF">
+  <br>
+  <strong>Loss graph</strong>
+</p>
 
 ## Installation
 
