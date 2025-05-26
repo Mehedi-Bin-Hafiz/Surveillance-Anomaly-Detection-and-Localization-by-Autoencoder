@@ -1,8 +1,11 @@
 # Anomaly Detection and Localization
 
-<div style="text-align: center;">
-  ![Surveillance Anomaly Localization](results/output.gif "anomaly sample")
-</div>
+
+<p align="center">
+  <img src="results/output.gif" alt="Output with Localization">
+  <br>
+  <strong>Output with Localization</strong>
+</p>
 
 
 ## Project Overview
@@ -31,7 +34,7 @@ This is a Convolutional Autoencoder that compresses 232×232 input images throug
 The graph displays the real-time reconstruction loss (Mean Squared Error) over the frames of a video. It shows a generally low loss initially, with a significant spike around frame 150-170, indicating a period of higher reconstruction error, for the anomaly
 
 <p align="center">
-  <img src="results/loss_line.png" alt="Description of the GIF">
+  <img src="results/loss_line.gif" alt="Output with Localization">
   <br>
   <strong>Loss graph</strong>
 </p>
