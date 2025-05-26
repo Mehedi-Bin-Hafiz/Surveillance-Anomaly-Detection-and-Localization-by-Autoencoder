@@ -28,7 +28,12 @@ This project leverages a **Long Short-Term Memory (LSTM) Autoencoder** to detect
 ## Model Architecture
 This is a Convolutional Autoencoder that compresses 232×232 input images through an encoder (Conv2D + BatchNorm layers) down to a 29×29×256 bottleneck representation, then reconstructs the original image size through a symmetric decoder using transposed convolutions. The model learns to encode standard patterns into a compact latent space and decode them back, creating a reconstruction that should closely match the input for normal data.
 
-![Model architecture](results/model_architecture.png "Architecture of Autoencoder")
+
+<p align="center">
+  <img src="results/model_architecture.png" alt="Model Architecture">
+  <br>
+  <strong>Model Architecture </strong>
+</p>
 
 ## Loss graph
 The graph displays the real-time reconstruction loss (Mean Squared Error) over the frames of a video. It shows a generally low loss initially, with a significant spike around frame 150-170, indicating a period of higher reconstruction error, for the anomaly
