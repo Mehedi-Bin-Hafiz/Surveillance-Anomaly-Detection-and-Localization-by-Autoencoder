@@ -64,6 +64,10 @@ pip install -r requirements.txt
 
 ```
 
+## Full result video link: 
+[Final Result](https://youtu.be/Db-KJsZ5lSY?si=nbgHCxXYYA_NQcbt)
+
+
 ## Dataset is taken from
 
 ```bash
