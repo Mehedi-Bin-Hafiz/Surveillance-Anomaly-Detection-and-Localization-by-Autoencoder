@@ -10,7 +10,6 @@ output_frames
 model_frame_by_frame.h5
 model_e50_b4.h5
 training_frames.npy
-model_testing.ipynb
 loss_data_final.csv
 loss graph.mp4
 plot_frames
