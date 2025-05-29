@@ -16,6 +16,7 @@ loss graph.mp4
 plot_frames
 reconstructed_frames
 anomaly_maps
+model_e50_b4.onnx
 
 # C extensions
 *.so
