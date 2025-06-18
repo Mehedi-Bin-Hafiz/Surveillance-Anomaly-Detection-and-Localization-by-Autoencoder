@@ -16,6 +16,7 @@ plot_frames
 reconstructed_frames
 anomaly_maps
 model_e50_b4.onnx
+training_frames_street.npy
 
 # C extensions
 *.so
