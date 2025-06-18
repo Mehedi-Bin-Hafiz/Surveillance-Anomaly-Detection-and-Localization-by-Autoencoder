@@ -10,14 +10,14 @@
 
 ## Project Overview
 
-This project leverages a **Long Short-Term Memory (LSTM) Autoencoder** to detect and localize anomalies in surveillance video data. The model flags anomalies based on reconstruction error thresholds by reconstructing normal sequences. It's ideal for tasks like identifying unusual activities in video footage.
+This project leverages a **Autoencoder model** to detect and localize anomalies in surveillance video data. The model flags anomalies based on reconstruction error thresholds by reconstructing normal sequences. It's ideal for tasks like identifying unusual activities in video footage.
 
 ---
 
 ## Features
 
-- **LSTM Autoencoder**: Harnesses temporal patterns for anomaly detection.
-- **Localization**: This project is able to localize the anomaly area of video.  
+- **Autoencoder**: Harnesses patterns for anomaly detection.
+- **Localization**: This project is able to localize the anomaly area of the video.  
 - **Preprocessing Pipeline**: Streamlines data normalization and sequence preparation.
 - **Visualization**: Includes loss graphs for performance tracking.
 - **Customizable Threshold**: Tweak anomaly sensitivity via reconstruction error thresholds.
