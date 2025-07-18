@@ -143,7 +143,3 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-
-# Docker
-Dockerfile
-.dockerignore
