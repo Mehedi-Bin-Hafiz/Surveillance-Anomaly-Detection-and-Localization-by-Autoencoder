@@ -64,6 +64,7 @@ coverage.xml
 *.cover
 .hypothesis/
 .pytest_cache/
+model/
 
 # Translations
 *.mo
@@ -141,3 +142,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+
+# Docker
+Dockerfile
+.dockerignore

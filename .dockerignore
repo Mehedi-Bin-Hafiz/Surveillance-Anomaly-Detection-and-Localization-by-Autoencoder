@@ -1,0 +1,17 @@
+# Git
+.git/
+.gitignore
+
+# Data and models
+dataset/
+models/
+
+# Notebooks
+notebooks/
+
+# Results
+results/
+
+# Python cache
+__pycache__/
+*.pyc

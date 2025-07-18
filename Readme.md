@@ -64,6 +64,18 @@ pip install -r requirements.txt
 
 ```
 
+## Running with Docker
+
+1.  Build the Docker image:
+    ```bash
+    docker build -t surveillance-anomaly-detection .
+    ```
+
+2.  Run the Docker container:
+    ```bash
+    docker run -it surveillance-anomaly-detection
+    ```
+
 ## Full result video link: 
 [Final Result](https://youtu.be/Db-KJsZ5lSY?si=nbgHCxXYYA_NQcbt)
 
